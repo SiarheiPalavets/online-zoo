@@ -596,10 +596,12 @@ h1 {
   border: 1px solid #f9804b;
 }
 .square-btn-after-scroll-block {
+justify-content: space-between;
   margin: 0px auto;
   min-width: 1600px;
 }
 .square-btn-after-scroll-block-div {
+    justify-content: space-between;
   margin: 0px auto;
   width: 1160px;
 }
