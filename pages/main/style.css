@@ -65,6 +65,10 @@ h1 {
   list-style-type: none;
 }
 
+.nav-ul li  .active{
+    color: yellow;
+}
+
 .nav-li {
   margin-right: 10%;
   display: flex;
