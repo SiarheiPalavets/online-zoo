@@ -17,9 +17,9 @@ main {
   margin-top: -80px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .default-width {
@@ -131,10 +131,10 @@ h1 {
 }
 
 .watch-btn:hover {
-    color: #f9804b;
-    background: #faecdb;
-    cursor: pointer;
-    border: 1px solid #f9804b;
+  color: #f9804b;
+  background: #faecdb;
+  cursor: pointer;
+  border: 1px solid #f9804b;
 }
 
 .yellow-word {
@@ -216,11 +216,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-.gallery-blocks img:hover{
-    transition: all 0.3s ease;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+.gallery-blocks img:hover {
+  transition: all 0.3s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .blocks-heading {
@@ -307,11 +307,11 @@ h1 {
 .how-tofeed-section {
   position: relative;
   background: linear-gradient(
-      315.75deg,
-      rgba(254, 210, 144, 0.7) 30.06%,
-      #febdab 100.95%,
-      rgba(254, 210, 144, 0.7) 106.36%
-    );
+    315.75deg,
+    rgba(254, 210, 144, 0.7) 30.06%,
+    #febdab 100.95%,
+    rgba(254, 210, 144, 0.7) 106.36%
+  );
   height: 975px;
   padding-top: 30px;
 }
@@ -596,12 +596,12 @@ h1 {
   border: 1px solid #f9804b;
 }
 .square-btn-after-scroll-block {
-justify-content: space-between;
+  justify-content: space-between;
   margin: 0px auto;
   min-width: 1600px;
 }
 .square-btn-after-scroll-block-div {
-    justify-content: space-between;
+  justify-content: space-between;
   margin: 0px auto;
   width: 1160px;
 }
