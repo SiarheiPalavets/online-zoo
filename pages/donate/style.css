@@ -63,6 +63,9 @@ h1 {
   max-width: 100%;
   justify-content: space-evenly;
 }
+.active-link:hover{
+  color: yellow;
+}
 .panda-main {
   margin: 0%;
   padding: 0%;
