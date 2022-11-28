@@ -1,6 +1,8 @@
 body {
   margin: 0 auto;
   scroll-behavior: smooth;
+  min-height: 100%;
+  height: 100%;
 }
 header {
   min-width: 1600px;
@@ -308,7 +310,7 @@ h1 {
   font-weight: 500;
   font-size: 2rem;
   line-height: 140%;
-  width: 65px;-
+  width: 65px;
   z-index: 1;
   cursor: pointer;
 }

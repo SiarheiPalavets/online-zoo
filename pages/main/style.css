@@ -114,10 +114,11 @@ h1 {
 .watch-btn {
   display: block;
   border: none;
+  position: absolute;
   width: 26.15%;
   height: 54px;
-  margin-top: 54%;
-  margin-left: -34.4%;
+  top: 45rem;
+  left: 50rem;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
   font-family: 'Roboto';
@@ -407,7 +408,7 @@ h1 {
   text-align: left;
 }
 
-.testomonials h3 {
+.testimonials h3 {
   text-align: center;
   margin: 140px 0px 47px 0px;
   font-family: 'Roboto';
@@ -729,4 +730,197 @@ footer .nav-ul .last-li {
 .social-medias-li {
   height: 26px;
   margin: 5px 0px 5px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    min-height: 100%;
+  }
+  header {
+    z-index: 1;
+  }
+  main {
+    max-width: 1000px;
+  }
+  section {
+    max-width: 1000px;
+  }
+  .default-width {
+    max-width: 940px;
+    margin-left: 30px;
+  }
+  /* .logo{
+    margin-right: 39px;
+    } */
+  .nav-ul li {
+    margin-right: 48px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .panda-main {
+    max-width: 1000px;
+    max-height: 584px;
+    margin: 0 auto;
+    margin-left: 0px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .orange-circle {
+    position: absolute;
+    width: 367px;
+    height: 367px;
+    left: 35%;
+    top: 69px;
+    z-index: 0;
+  }
+  .watch-text {
+    position: absolute;
+    width: 400.25px;
+    height: 320px;
+    left: -10%;
+    top: 122.8px;
+    font-size: 85px;
+    line-height: 75%;
+  }
+  .watch-btn {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    top: 35rem;
+    left: 30rem;
+  }
+  .footer-wrapper {
+    max-width: 940px;
+    margin-left: 30px;
+  }
+  /* footer .sm-link{
+    margin-left: 0px;
+    }
+    .footer-grid form{
+    margin-left: 541px;
+    }
+    .footer-grid h2{
+    margin-left: 541px;
+    } */
+  footer .nav-ul {
+    margin-left: 291px;
+    text-align: left;
+  }
+  .active-link {
+    margin-left: 0px;
+    margin-right: 48px;
+  }
+  .designed {
+    display: flex;
+    position: relative;
+    float: right;
+    left: 30px;
+    top: -90px;
+    margin-right: 31px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  .backstage_wrapper {
+    background-image: none;
+  }
+  .gallery {
+    margin-bottom: 72px;
+  }
+  .gallery-blocks {
+    width: 290px;
+    height: 352px;
+    column-gap: 29px;
+  }
+  .gallery-blocks img {
+    max-width: 290px;
+    max-height: 290px;
+  }
+  .arrows {
+    top: -522px;
+    width: 289px;
+    margin: 0px auto;
+  }
+  .choose-favorite-btn {
+    display: flex;
+    position: relative;
+    top: -80px;
+    justify-content: center;
+    align-items: center;
+  }
+  .how-to-feed-section {
+    max-width: 1000px;
+    height: 846px;
+  }
+  .how-to-feed {
+    max-width: 940px;
+    height: 796px;
+  }
+  .how-to-feed-cards {
+    margin-bottom: 35px;
+  }
+  .how-to-feed .head{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+      }
+    .how-to-feed h4{
+    margin-bottom: 20px;
+    max-width: 843px;
+    }
+    .how-to-feed h5{
+     max-width: 813px;
+    }
+    .how-to-feed p{
+    max-width: 823px;
+    margin-bottom: 0px;
+    }
+    .how-to-feed h4,.how-to-feed h5,.how-to-feed p{
+    margin-left: 49px;
+    }
+    .how-to-feed h3{
+    margin-top: 40px;
+     }
+    .how-to-feed-spans{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    }
+  .testimonials {
+    height: 740px;
+  }
+  .testimonials h3 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .feedbacks > :last-child {
+    display: none;
+  }
+  .feedbacks {
+    max-width: 940px;
+  }
+  .feedback-block p {
+    width: 255px;
+    height: 309px;
+  }
+  .feedback-block {
+    height: 353px;
+  }
+  .square-btn-after-scroll {
+    margin-top: 53px;
+  }
+  .square-btn-after-scroll-block {
+    max-width: 1000px;
+  }
+  .square-btn-after-scroll-block-div {
+    max-width: 940px;
+  }
+  .scrollbar {
+    margin: 0px auto;
+    max-width: 940px;
+    width: 390px;
+  }
 }
